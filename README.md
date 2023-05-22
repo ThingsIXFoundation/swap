@@ -2,13 +2,13 @@
 
 ### Development
 
-`npm run dev` to run the application locally
+`npm run dev` to start Next.js in development mode.
 
 ### Production
 
-`npm run build` to build the application
+`npm run build` to build the application for production usage
 
-`npm run start` to run the build
+`npm run start` to start a Next.js production server
 
 ## Learn More
 

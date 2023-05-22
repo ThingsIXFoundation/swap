@@ -1,17 +1,17 @@
-import Swapper from '@/pages/swapper'
+import Swapper from '@/app/swapper'
 import Image from 'next/image'
 
 const Environment = () => {
-  if (process.env.NODE_ENV !== 'production') {
-    return (
-      <div className="bg-orange-700 text-sm px-3 py-0.5 rounded text-white">
-        This is a testing environment!
-      </div>
-    )
-  } else return <></>
+  if (process.env.NODE_ENV == 'production') return <></>
+
+  return (
+    <div className="bg-orange-700 text-sm px-3 py-0.5 rounded text-white">
+      This is a testing environment!
+    </div>
+  )
 }
 
-const App = () => {
+const Page = () => {
   return (
     <>
       <div className="fixed top-0 left-0 w-full flex flex-col h-16 items-center justify-center bg-black bg-opacity-70 text-white">
@@ -31,4 +31,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Page

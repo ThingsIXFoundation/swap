@@ -1,3 +1,5 @@
+'use client'
+
 import { SwapWidget, darkTheme, Theme } from '@uniswap/widgets'
 import '@uniswap/widgets/fonts.css'
 
@@ -45,16 +47,16 @@ const customTheme: Theme = {
   module: '#2b2b2b',
   outline: '#121212', // container border
   dialog: '#2b2b2b', // settings dialog, etc
-  accentSoft: '#547bbf', // Main button
   hint: '#8a9c95', // placeholder numbers
   critical: '#ff0000',
   criticalSoft: '#ff0000',
   networkDefaultShadow: '#374152',
-  //   activeSoft: '#303030', // token selection bubble hover
-  //   scrim: '#ff0000',
-  //   onAccent: '#ff0000',
-  //   active: '#ff0000',
-  //   success: '#ff0000',
+  // accentSoft: '#547bbf', // Main button
+  // activeSoft: '#303030', // token selection bubble hover
+  // scrim: '#ff0000',
+  // onAccent: '#ff0000',
+  // active: '#ff0000',
+  // success: '#ff0000',
 }
 
 const Swapper = () => {
