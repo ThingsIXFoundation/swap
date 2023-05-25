@@ -34,7 +34,7 @@ const MY_TOKEN_LIST = [
     symbol: 'THIX',
     decimals: 18,
     chainId: chainId,
-    logoURI: 'https://i.imgur.com/mhv0fln.png',
+    logoURI: 'https://www.thingsix.com/logo/THIX_Icon_square.png',
   },
 ]
 
