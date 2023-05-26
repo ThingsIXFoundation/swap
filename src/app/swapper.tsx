@@ -63,7 +63,7 @@ const customTheme: Theme = {
 const Swapper = () => {
   return (
     <div className="flex w-full h-full items-center text-white">
-      <div className="Uniswap">
+      <div className="uniswap">
         <SwapWidget
           width={320}
           permit2={true}

@@ -5,3 +5,7 @@
 body {
   @apply bg-zinc-900 h-screen w-full flex items-center justify-center;
 }
+
+.uniswap [color='container'] > div > div:nth-child(3) {
+  position: relative;
+}
