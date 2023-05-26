@@ -5,7 +5,7 @@ const Environment = () => {
   if (process.env.NODE_ENV == 'production') return <></>
 
   return (
-    <div className="bg-orange-700 text-sm px-3 py-0.5 rounded text-white">
+    <div className="bg-orange-700 text-xs px-2 pb-0.5 mt-0.5 rounded-sm text-white">
       This is a testing environment!
     </div>
   )
@@ -21,10 +21,16 @@ const Page = () => {
           width={140}
           height={20}
         />
+        <Environment />
       </div>
 
-      <div className="flex flex-col space-y-6 -mt-6 items-center">
-        <Environment />
+      <div className="flex flex-col -mt-6 items-center">
+        <a
+          href="https://app.thingsix.com/"
+          className="hover:bg-zinc-500 bg-zinc-600 text-white text-sm px-2.5 py-0.5 rounded mb-5 mt-3"
+        >
+          Back to the Dashboard
+        </a>
         <Swapper />
       </div>
     </>

@@ -65,10 +65,10 @@ const Swapper = () => {
     <div className="flex w-full h-full items-center text-white">
       <div className="uniswap">
         <SwapWidget
-          width={320}
+          width={335}
           permit2={true}
           tokenList={MY_TOKEN_LIST}
-          defaultInputTokenAddress={USDTAddress}
+          defaultInputTokenAddress={USDCAddress}
           defaultOutputTokenAddress={thixAddress}
           defaultChainId={chainId}
           theme={customTheme}
